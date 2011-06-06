@@ -1,3 +1,12 @@
+unicorn (3.6.2-0sg2) lucid; urgency=low
+
+  [ Paul Lathrop ]
+  * Add rules to install man pages
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Mon, 06 Jun 2011 22:59:43 +0000
+
 unicorn (3.6.2-0sg1) lucid; urgency=low
 
   * UNRELEASED
