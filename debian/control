@@ -1,0 +1,15 @@
+Source: unicorn
+Section: ruby
+Priority: extra
+Maintainer: Paul Lathrop <paul@simplegeo.com>
+Build-Depends: cdbs, debhelper (>= 7), ruby-pkg-tools, ruby-dev, librack-ruby, libkgio-ruby
+Standards-Version: 3.8.3
+Homepage: http://unicorn.bogomips.org/
+
+Package: unicorn
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby, librack-ruby, libkgio-ruby
+Description: Unicorn is an HTTP server for Rack applications.
+ Unicorn is designed to only serve fast clients on low-latency,
+ high-bandwidth connections and take advantage of features in
+ Unix/Unix-like kernels.

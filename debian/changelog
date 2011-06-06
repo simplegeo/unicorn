@@ -1,0 +1,5 @@
+unicorn (3.6.2-0sg0) unstable; urgency=low
+
+  * Initial debian packaging release.
+
+ -- Paul Lathrop <paul@simplegeo.com>  Mon, 06 Jun 2011 17:55:52 +0000
