@@ -1,3 +1,9 @@
+unicorn (3.6.2-0sg1) lucid; urgency=low
+
+  * UNRELEASED
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Mon, 06 Jun 2011 21:56:42 +0000
+
 unicorn (3.6.2-0sg0) unstable; urgency=low
 
   * Initial debian packaging release.
