@@ -2,7 +2,7 @@ Source: unicorn
 Section: ruby
 Priority: extra
 Maintainer: Paul Lathrop <paul@simplegeo.com>
-Build-Depends: cdbs, debhelper (>= 7), ruby-pkg-tools, ruby-dev, librack-ruby, libkgio-ruby
+Build-Depends: cdbs, debhelper (>= 7), ruby-pkg-tools, ruby-dev, librack-ruby, libkgio-ruby, pandoc
 Standards-Version: 3.8.3
 Homepage: http://unicorn.bogomips.org/
 
