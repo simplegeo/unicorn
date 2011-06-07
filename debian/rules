@@ -5,6 +5,9 @@ include /usr/share/ruby-pkg-tools/1/class/ruby-setup-rb.mk
 
 
 # Add here any variable or target overrides you need.
+build/unicorn::
+	$(MAKE) -C $(DEB_BUILDDIR) http
+
 install/unicorn::
 	$(MAKE) -C $(DEB_BUILDDIR)/Documentation install-man
 	mkdir -p $(DEB_DESTDIR)usr/share/man/man1
